@@ -41,7 +41,8 @@ header {
   font-weight: 400;
   color: #ffffff;
   text-align: right;
-  margin-bottom: 60px;
+  line-height: 26px;
+  margin-bottom: 50px;
 }
 
 .primary-btn {
@@ -67,4 +68,37 @@ main {
 .failures {
   margin-top: 130px;
   display: flex;
+  gap: 87px;
+}
+
+.failure-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.failure-description {
+  margin-bottom: 200px;
+}
+
+.failure-title {
+  text-align: left;
+  font-weight: 800;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.failure-text {
+  text-align: left;
+  color: #444343;
+  margin-bottom: 16px;
+  line-height: 26px;
+}
+
+.failure-list li {
+  list-style: inside url(../images/icons/checkmark.png);
+  color: #444343;
+  line-height: 26px;
+  margin-bottom: 8px;
 }
